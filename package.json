@@ -15,9 +15,14 @@
     "eslint-plugin-standard": "^4.0.1",
     "git-commit-msg-linter": "^2.6.0",
     "husky": "^4.3.0",
-    "typescript": "^4.0.2"
+    "typescript": "^4.0.2",
+    "@types/jest": "^26.0.14",
+    "jest": "^26.4.2",
+    "lint-staged": "^10.4.0",
+    "ts-jest": "^26.3.0"
   },
-  "dependencies": {
-    "lint-staged": "^10.4.0"
+  "dependencies": {},
+  "scripts": {
+    "test": "jest"
   }
 }
